@@ -2,7 +2,11 @@
 
 # Análise de Churn 📊🚀
 
-Este projeto apresenta uma análise detalhada do churn de clientes, combinando técnicas avançadas de coleta e processamento de dados para identificar os principais fatores que influenciam a evasão de clientes.
+Este projeto foi desenvolvido como uma **pipeline completa de dados**, integrando etapas de ETL (Extração, Transformação e Carga) para garantir a qualidade e consistência das informações utilizadas. A análise exploratória e as visualizações interativas foram implementadas utilizando **Dash** e **Plotly**, ferramentas modernas que permitem criar dashboards dinâmicos e intuitivos, facilitando a interpretação dos dados em tempo real. 
+
+Para a modelagem preditiva, foi empregado o algoritmo **Random Forest**, uma técnica robusta de machine learning capaz de identificar padrões complexos nos dados e prever com alta precisão quais clientes têm maior probabilidade de churn. Essa abordagem faz parte de uma pipeline automatizada, onde os dados passam por um fluxo estruturado: desde a coleta e limpeza até a transformação e treinamento do modelo. 
+
+O uso dessas tecnologias garante não apenas insights acionáveis, mas também escalabilidade e eficiência no processamento de grandes volumes de dados, tornando o projeto uma solução completa para entender e combater o
 
 ## 📋 Visão Geral
 
@@ -33,6 +37,10 @@ Neste projeto, buscamos responder essas perguntas através de:
 - **matplotlib**
 - **seaborn**
 - **Jupyter Notebook**
+- **Dash**
+- **Plotly**
+- **SQL Server**
+- **PyODBC**
 
 ## 📂 Estrutura do Projeto
 
