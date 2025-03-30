@@ -14,6 +14,7 @@ import dash_bootstrap_components as dbc
 from data import carregar_dados
 from layout import criar_layout
 from callbacks import registrar_callbacks
+import os
 
 # Inicializa o app com o tema DARKLY e os ícones do Font Awesome
 app = Dash(__name__, external_stylesheets=[dbc.themes.DARKLY, dbc.icons.FONT_AWESOME])
@@ -30,3 +31,5 @@ registrar_callbacks(app, dados)
 
 if __name__ == '__main__':
     app.run(debug=True)
+     port = int(os.environ.get("PORT", 8050))  # Usa a porta do Heroku ou 8050 como fallback
+    app.run(host="0.0.0.0", port=port, debug=False)
