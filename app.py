@@ -29,4 +29,5 @@ app.layout = criar_layout(dados)
 registrar_callbacks(app, dados)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 8050))  # Porta correta para Heroku
+    app.run(host="0.0.0.0", port=port, debug=False)
