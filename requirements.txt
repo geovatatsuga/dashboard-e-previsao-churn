@@ -1,6 +1,7 @@
+gunicorn
 plotly
 dash
 dash-bootstrap-components
 matplotlib
+pandas
 seaborn
-gunicorn
