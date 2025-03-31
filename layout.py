@@ -86,7 +86,7 @@ taxa_churn_por_tempo_contratado.index = pd.Categorical(
 taxa_churn_por_tempo_contratado = taxa_churn_por_tempo_contratado.sort_index().round(2)
 
 # Dados de análise preditiva
-caminho3 = 'https://raw.githubusercontent.com/geovatatsuga/dashboard-e-previsao-churn/blob/52bce346cbba324991c5fd70827eacb73aee69e0/DADOS/clientes_predictos.csv'
+caminho3 = "https://raw.githubusercontent.com/geovatatsuga/dashboard-e-previsao-churn/main/DADOS/_Predictions.csv"
 clientes_Predicted = pd.read_csv(caminho3)
 clientespred = clientes_Predicted
 total_clientes_previsto = len(clientespred)
