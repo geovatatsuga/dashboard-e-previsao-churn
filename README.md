@@ -1,5 +1,8 @@
 # Dashboard e Previsão de Churn
 
+Veja o dashboard aqui :
+https://churn-dashboard-404763389112.herokuapp.com/
+
 ## Análise de Churn 📊🚀
 
 Este projeto foi desenvolvido como uma **pipeline completa de dados**, integrando etapas de **ETL (Extração, Transformação e Carga)** para garantir a qualidade e consistência das informações utilizadas. A análise exploratória e as visualizações interativas foram implementadas utilizando **Dash** e **Plotly**, ferramentas modernas que permitem criar dashboards dinâmicos e intuitivos, facilitando a interpretação dos dados em tempo real. O deploy do dashboard foi realizado utilizando **Heroku**, garantindo acessibilidade e escalabilidade da solução.
